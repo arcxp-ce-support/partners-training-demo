@@ -1,0 +1,30 @@
+.header {
+    width: 100%;
+    border: 1px solid red;
+    height: 300px;
+    padding: 50px;
+    font-size: 50px;
+}
+
+.main-section {
+    display: flex;
+    min-height: 700px;
+}
+
+.main-col {
+    width: 60%;
+    border: 1px solid green;
+    padding: 50px;
+}
+
+.column {
+    width: 40%;
+    border: 1px solid blue;
+    padding: 50px;
+}
+
+.footer {
+    width: 100%;
+    border: 1px solid purple;
+    height: 500px;
+}

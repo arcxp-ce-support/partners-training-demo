@@ -1,0 +1,158 @@
+
+{
+"org": "@wpmedia/",
+"engineSDK": "@wpmedia/engine-theme-sdk",
+"cssFramework": "@wpmedia/news-theme-css",
+"cssImport": "@wpmedia/news-theme-css/scss/_index.scss",
+"sassImport": [
+"@wpmedia/news-theme-css/scss/_variables.scss",
+"@wpmedia/news-theme-css/scss/_functions.scss",
+"@wpmedia/news-theme-css/scss/_colors.scss",
+"@wpmedia/news-theme-css/scss/_breakpoints.scss",
+"@wpmedia/news-theme-css/scss/_mixins.scss"
+],
+"sassVariableOverrides": [
+"$primary-font-family: $theme-primary-font-family;",
+"$secondary-font-family: $theme-secondary-font-family;",
+"$primary-color: $theme-primary-color;"
+],
+"localeList": [
+"en",
+"sv",
+"no",
+"fr",
+"de",
+"es",
+"ja",
+"ko",
+"pt"
+],
+"themesReleaseVersion": "arc-themes-release-version-1.23",
+"blocks": [
+"@wpmedia/ad-taboola-block",
+"@wpmedia/ads-block",
+"@wpmedia/alert-bar-block",
+"@wpmedia/alert-bar-content-source-block",
+"@wpmedia/article-body-block",
+"@wpmedia/article-tag-block",
+"@wpmedia/author-bio-block",
+"@wpmedia/author-content-source-block",
+"@wpmedia/byline-block",
+"@wpmedia/card-list-block",
+"@wpmedia/collections-content-source-block",
+"@wpmedia/content-api-source-block",
+"@wpmedia/date-block",
+"@wpmedia/double-chain-block",
+"@wpmedia/event-tester-block",
+"@wpmedia/extra-large-manual-promo-block",
+"@wpmedia/extra-large-promo-block",
+"@wpmedia/footer-block",
+"@wpmedia/full-author-bio-block",
+"@wpmedia/gallery-block",
+"@wpmedia/header-block",
+"@wpmedia/header-nav-chain-block",
+"@wpmedia/headline-block",
+"@wpmedia/htmlbox-block",
+"@wpmedia/identity-block",
+"@wpmedia/large-manual-promo-block",
+"@wpmedia/large-promo-block",
+"@wpmedia/lead-art-block",
+"@wpmedia/links-bar-block",
+"@wpmedia/masthead-block",
+"@wpmedia/medium-manual-promo-block",
+"@wpmedia/medium-promo-block",
+"@wpmedia/numbered-list-block",
+"@wpmedia/overline-block",
+"@wpmedia/quad-chain-block",
+"@wpmedia/results-list-block",
+"@wpmedia/right-rail-advanced-block",
+"@wpmedia/right-rail-block",
+"@wpmedia/search-content-source-block",
+"@wpmedia/search-results-list-block",
+"@wpmedia/section-title-block",
+"@wpmedia/share-bar-block",
+"@wpmedia/simple-list-block",
+"@wpmedia/single-chain-block",
+"@wpmedia/site-hierarchy-content-block",
+"@wpmedia/small-manual-promo-block",
+"@wpmedia/small-promo-block",
+"@wpmedia/story-feed-author-content-source-block",
+"@wpmedia/story-feed-query-content-source-block",
+"@wpmedia/story-feed-sections-content-source-block",
+"@wpmedia/story-feed-tag-content-source-block",
+"@wpmedia/subheadline-block",
+"@wpmedia/subscriptions-block",
+"@wpmedia/tag-title-block",
+"@wpmedia/tags-content-source-block",
+"@wpmedia/top-table-list-block",
+"@wpmedia/triple-chain-block",
+"@wpmedia/unpublished-content-source-block",
+"@wpmedia/video-player-block",
+"@wpmedia/global-phrases-block",
+"@wpmedia/placeholder-image-block",
+"@wpmedia/resizer-image-block",
+"@wpmedia/resizer-image-content-source-block",
+"@wpmedia/shared-styles"
+],
+"values": {
+"default": {
+"siteProperties": {
+"websiteName": "Paprika",
+"navColor": "light",
+"locale": "en",
+"dateLocalization": {
+"language": "en_US",
+"timeZone": "America/New_York",
+"dateTimeFormat": "",
+"dateFormat": ""
+},
+"nativoIntegration": "false",
+"navBarBackground": "primary-color",
+"breakpoints": {
+"small": 0,
+"medium": 768,
+"large": 992
+},
+"imageWidths": [
+84,
+105,
+158,
+274,
+377,
+400,
+600,
+768,
+800,
+1024,
+1440,
+1600
+],
+"aspectRatios": [
+"3:2",
+"4:3",
+"1:0",
+"16:9",
+"1:1"
+],
+"api": {
+"identity": {
+"origin": ""
+},
+"retail": {
+"endpoint": "",
+"origin": "",
+"script": ""
+}
+},
+"fontUrl": [
+"https://fonts.googleapis.com/css?family=Abel"
+]
+},
+"styleProperties": {
+"primary-font-family": "'Abel', Sans-Serif",
+"secondary-font-family": "'Abel', Sans-Serif",
+"primary-color": "#fff"
+}
+}
+}
+}
